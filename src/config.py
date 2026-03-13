@@ -86,7 +86,7 @@ ARREST: Police handcuffing or forcibly detaining someone.
 NORMAL: Peaceful scene, walking, shopping, talking, no violence."""
 )
 
-GEMMA1B_CONFIG = ModelConfig(
+GEMMA4B_CONFIG = ModelConfig(
     model_tag   = "gemma-3-4b-it-4bit",
     model_path  = "mlx-community/gemma-3-4b-it-4bit",
     temperature = 0.0,
@@ -100,7 +100,7 @@ ARREST: Police handcuffing or forcibly detaining someone.
 NORMAL: Peaceful scene, walking, shopping, talking, no violence."""
 )
 
-GEMMA4B_CONFIG = ModelConfig(
+GEMMA1B_CONFIG = ModelConfig(
     model_tag   = "gemma-3-1b-it-4bit",
     model_path  = "mlx-community/gemma-3-1b-it-4bit",
     temperature = 0.0,

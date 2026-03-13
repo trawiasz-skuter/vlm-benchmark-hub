@@ -1,0 +1,91 @@
+{
+  "model_tag": "Qwen3VL4B_3bit",
+  "num_samples": 20,
+  "unknown_count": 0,
+  "unknown_pct": 0.0,
+  "overall": {
+    "accuracy": 0.5,
+    "precision": 1.0,
+    "recall_tpr": 0.4737,
+    "f1": 0.6429,
+    "fpr": 0.0,
+    "fnr": 0.5263
+  },
+  "confusion_matrix": {
+    "tn": 1,
+    "fp": 0,
+    "fn": 10,
+    "tp": 9
+  },
+  "per_category": {
+    "Arson": {
+      "total": 8,
+      "tp": 5,
+      "tn": 0,
+      "fp": 0,
+      "fn": 3,
+      "accuracy": 0.625,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692,
+      "fpr": null,
+      "fnr": 0.375
+    },
+    "Normal": {
+      "total": 1,
+      "tp": 0,
+      "tn": 1,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "fpr": 0.0,
+      "fnr": null
+    },
+    "Assault": {
+      "total": 6,
+      "tp": 3,
+      "tn": 0,
+      "fp": 0,
+      "fn": 3,
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "fpr": null,
+      "fnr": 0.5
+    },
+    "Abuse": {
+      "total": 4,
+      "tp": 1,
+      "tn": 0,
+      "fp": 0,
+      "fn": 3,
+      "accuracy": 0.25,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fpr": null,
+      "fnr": 0.75
+    },
+    "Arrest": {
+      "total": 1,
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 1,
+      "accuracy": 0.0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null,
+      "fpr": null,
+      "fnr": 1.0
+    }
+  },
+  "performance": {
+    "avg_inference_time_s": 7.504,
+    "avg_tokens_per_sec": null
+  }
+}

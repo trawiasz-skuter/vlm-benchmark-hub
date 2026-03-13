@@ -1,0 +1,21 @@
+timestamp,filename,category,model_tag,ground_truth,prediction_raw,prediction_label,prediction_correct,is_unknown,response_word_count,video_duration_s,video_total_frames,video_fps,frames_sampled,inference_time_s,tokens_per_sec,frame_extraction_time_s,mem_delta_mb
+12:07:08,Arson015_x264.mp4,Arson,gemma-3-4b-it-4bit,Anomaly,[ASSAULT] - People are physically fighting and pushing each other aggressively.,Anomaly,True,False,11,341.0,10230,30.0,4,17.037,,0.065,-1423.9
+12:07:24,Arrest030_x264.mp4,Arrest,gemma-3-4b-it-4bit,Anomaly,"[ASSAULT] - Multiple individuals engaging in a physical altercation, pushing and shoving.",Anomaly,True,False,12,288.07,8642,30.0,4,16.501,,0.08,-27.4
+12:07:41,Abuse034_x264.mp4,Abuse,gemma-3-4b-it-4bit,Anomaly,"[ASSAULT] - People are running across the road, seemingly avoiding a vehicle.",Anomaly,True,False,12,52.1,1563,30.0,4,16.333,,0.049,161.8
+12:07:57,Assault003_x264.mp4,Assault,gemma-3-4b-it-4bit,Anomaly,[ASSAULT] - People are fighting and physically attacking each other.,Anomaly,True,False,10,148.1,4443,30.0,4,16.19,,0.055,-193.0
+12:08:13,Assault039_x264.mp4,Assault,gemma-3-4b-it-4bit,Anomaly,[ASSAULT] - The man is aggressively pushing through a glass door.,Anomaly,True,False,11,9.83,295,30.0,4,16.386,,0.043,-31.5
+12:08:30,Abuse007_x264.mp4,Abuse,gemma-3-4b-it-4bit,Anomaly,"[ASSAULT] - The individual appears to be aggressively walking, suggesting a potential threat.",Anomaly,True,False,13,38.33,1150,30.0,4,16.626,,0.034,-24.8
+12:08:47,Arrest028_x264.mp4,Arrest,gemma-3-4b-it-4bit,Anomaly,"[ARREST] - Police are handcuffing the individual, indicating a detention.",Anomaly,True,False,10,83.17,2495,30.0,4,16.777,,0.042,90.3
+12:09:04,Arrest025_x264.mp4,Arrest,gemma-3-4b-it-4bit,Anomaly,"[ARREST] - Police are handcuffing individuals, indicating a detention or arrest.",Anomaly,True,False,11,35.23,1057,30.0,4,17.165,,0.069,-141.5
+12:09:22,Abuse017_x264.mp4,Abuse,gemma-3-4b-it-4bit,Anomaly,"[ASSAULT] - Multiple people fighting, hitting, and pushing each other.",Anomaly,True,False,10,64.0,1920,30.0,4,18.356,,0.047,-25.7
+12:09:42,Normal_Videos_704_x264.mp4,Normal,gemma-3-4b-it-4bit,Normal,"[NORMAL] - A person is walking along a grassy area, seemingly calmly.",Normal,True,False,12,56.47,1694,30.0,4,18.988,,0.045,-25.0
+12:10:03,Normal_Videos_801_x264.mp4,Normal,gemma-3-4b-it-4bit,Normal,NORMAL - People are shopping and interacting at a grocery store checkout.,Normal,True,False,12,91.47,2744,30.0,4,21.446,,0.061,-27.0
+12:10:24,Abuse043_x264.mp4,Abuse,gemma-3-4b-it-4bit,Anomaly,[ASSAULT] - A person appears to be physically attacking another individual.,Anomaly,True,False,11,129.0,3870,30.0,4,20.68,,0.062,124.4
+12:10:45,Arson008_x264.mp4,Arson,gemma-3-4b-it-4bit,Anomaly,"[ASSAULT] - A struggle is visible, with a person being pushed/thrown violently.",Anomaly,True,False,12,40.67,1220,30.0,4,21.258,,0.05,-53.1
+12:11:07,Assault032_x264.mp4,Assault,gemma-3-4b-it-4bit,Anomaly,[ASSAULT] - A man is violently attacking another person on the ground.,Anomaly,True,False,12,19.07,572,30.0,4,21.51,,0.057,-29.4
+12:11:28,Assault042_x264.mp4,Assault,gemma-3-4b-it-4bit,Anomaly,"NORMAL - People are walking and observing the scene, showing a typical street view.",Normal,False,False,14,299.8,8994,30.0,4,21.209,,0.083,29.3
+12:11:49,Normal_Videos_758_x264.mp4,Normal,gemma-3-4b-it-4bit,Normal,"[NORMAL] - People are walking and moving through the crowd, observing the scene.",Normal,True,False,13,52.97,1589,30.0,4,20.947,,0.057,0.4
+12:12:09,Abuse009_x264.mp4,Abuse,gemma-3-4b-it-4bit,Anomaly,[ARSON] - Flames and smoke are visible in the image.,Anomaly,True,False,10,33.37,1001,30.0,4,20.466,,0.069,-54.8
+12:12:30,Normal_Videos_478_x264.mp4,Normal,gemma-3-4b-it-4bit,Normal,"[NORMAL] - People are walking and driving, showing normal activity on the street.",Normal,True,False,13,150.07,4502,30.0,4,20.337,,0.067,29.1
+12:12:51,Assault047_x264.mp4,Assault,gemma-3-4b-it-4bit,Anomaly,"[NORMAL] - People are walking and observing the scene, indicating a normal activity.",Normal,False,False,13,111.2,3336,30.0,4,21.09,,0.055,-116.0
+12:13:12,Arson048_x264.mp4,Arson,gemma-3-4b-it-4bit,Anomaly,"NORMAL - The scene shows a restaurant interior with tables and chairs, indicating a normal setting.",Normal,False,False,16,13.7,411,30.0,4,20.572,,0.031,86.1

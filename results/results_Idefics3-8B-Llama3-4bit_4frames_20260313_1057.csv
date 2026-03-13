@@ -1,0 +1,21 @@
+timestamp,filename,category,model_tag,ground_truth,prediction_raw,prediction_label,prediction_correct,is_unknown,response_word_count,video_duration_s,video_total_frames,video_fps,frames_sampled,inference_time_s,tokens_per_sec,frame_extraction_time_s,mem_delta_mb
+10:59:06,Normal_Videos_150_x264.mp4,Normal,Idefics3-8B-Llama3-4bit,Normal,Normal.<end_of_utterance>,Normal,True,False,1,28.8,864,30.0,4,74.714,,0.094,-329.5
+11:00:25,Abuse003_x264.mp4,Abuse,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,123.3,3699,30.0,4,79.021,,0.028,-36.4
+11:01:54,Arson047_x264.mp4,Arson,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,48.07,1442,30.0,4,89.105,,0.044,326.7
+11:03:28,Abuse036_x264.mp4,Abuse,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,156.77,4703,30.0,4,93.313,,0.04,-381.9
+11:05:03,Abuse001_x264.mp4,Abuse,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,90.97,2729,30.0,4,94.93,,0.031,197.7
+11:06:41,Abuse011_x264.mp4,Abuse,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,121.53,3646,30.0,4,97.973,,0.056,-220.5
+11:08:18,Normal_Videos_015_x264.mp4,Normal,Idefics3-8B-Llama3-4bit,Normal,Normal.<end_of_utterance>,Normal,True,False,1,16.0,480,30.0,4,97.517,,0.035,222.3
+11:09:57,Assault028_x264.mp4,Assault,Idefics3-8B-Llama3-4bit,Anomaly,Arson.<end_of_utterance>,Anomaly,True,False,1,87.83,2635,30.0,4,98.726,,0.037,-144.8
+11:11:37,Normal_Videos_439_x264.mp4,Normal,Idefics3-8B-Llama3-4bit,Normal,Normal.<end_of_utterance>,Normal,True,False,1,140.87,4226,30.0,4,100.181,,0.035,-98.3
+11:13:23,Normal_Videos_603_x264.mp4,Normal,Idefics3-8B-Llama3-4bit,Normal,Normal.<end_of_utterance>,Normal,True,False,1,109.23,3277,30.0,4,105.642,,0.041,-68.9
+11:15:06,Arson032_x264.mp4,Arson,Idefics3-8B-Llama3-4bit,Anomaly,Arson.<end_of_utterance>,Anomaly,True,False,1,92.7,2781,30.0,4,102.72,,0.073,339.3
+11:16:49,Arson009_x264.mp4,Arson,Idefics3-8B-Llama3-4bit,Anomaly,ARSON.<end_of_utterance>,Anomaly,True,False,1,24.77,743,30.0,4,102.706,,0.037,-324.2
+11:18:36,Assault051_x264.mp4,Assault,Idefics3-8B-Llama3-4bit,Anomaly,ARREST.<end_of_utterance>,Anomaly,True,False,1,20.03,601,30.0,4,107.006,,0.034,-79.6
+11:20:21,Abuse035_x264.mp4,Abuse,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,88.37,2651,30.0,4,105.604,,0.044,-27.1
+11:22:09,Arson002_x264.mp4,Arson,Idefics3-8B-Llama3-4bit,Anomaly,Arson.<end_of_utterance>,Anomaly,True,False,1,147.97,4439,30.0,4,108.069,,0.038,162.2
+11:23:57,Arrest031_x264.mp4,Arrest,Idefics3-8B-Llama3-4bit,Anomaly,Normal.<end_of_utterance>,Normal,False,False,1,61.6,1848,30.0,4,107.651,,0.038,-212.4
+11:25:45,Arson021_x264.mp4,Arson,Idefics3-8B-Llama3-4bit,Anomaly,Arson.<end_of_utterance>,Anomaly,True,False,1,48.03,1441,30.0,4,107.604,,0.033,190.0
+11:27:33,Arrest032_x264.mp4,Arrest,Idefics3-8B-Llama3-4bit,Anomaly,Arson.<end_of_utterance>,Anomaly,True,False,1,56.13,1684,30.0,4,108.358,,0.045,-239.2
+11:29:22,Abuse034_x264.mp4,Abuse,Idefics3-8B-Llama3-4bit,Anomaly,Arson.<end_of_utterance>,Anomaly,True,False,1,52.1,1563,30.0,4,108.902,,0.074,-18.8
+11:31:14,Arson024_x264.mp4,Arson,Idefics3-8B-Llama3-4bit,Anomaly,Arson. - fire and smoke in background.<end_of_utterance>,Anomaly,True,False,7,112.2,3366,30.0,4,111.485,,0.02,297.6

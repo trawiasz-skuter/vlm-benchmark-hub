@@ -1,0 +1,65 @@
+timestamp,filename,category,model_tag,ground_truth,prediction_raw,prediction_label,prediction_correct,is_unknown,response_word_count,video_duration_s,video_total_frames,video_fps,frames_sampled,inference_time_s,tokens_per_sec,frame_extraction_time_s,mem_delta_mb
+19:52:10,Arrest009_x264.mp4,Arrest,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects",Anomaly,True,False,7,57.1,1713,30.0,4,22.303,,0.061,-67.8
+19:52:34,Arrest004_x264.mp4,Arrest,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,120.1,3603,30.0,4,23.54,,0.036,534.5
+19:52:57,Normal_Videos_621_x264.mp4,Normal,SmolVLM2_2.2B_mlx,Normal,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,False,False,26,160.07,4802,30.0,4,23.69,,0.038,0.3
+19:53:23,Normal_Videos_634_x264.mp4,Normal,SmolVLM2_2.2B_mlx,Normal,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,False,False,26,448.63,13459,30.0,4,25.393,,0.041,-933.7
+19:53:51,Abuse009_x264.mp4,Abuse,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,33.37,1001,30.0,4,27.744,,0.082,-12.5
+19:54:21,Normal_Videos_317_x264.mp4,Normal,SmolVLM2_2.2B_mlx,Normal,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,False,False,26,30.97,929,30.0,4,30.622,,0.055,-32.1
+19:54:55,Arrest026_x264.mp4,Arrest,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,216.2,6486,30.0,4,33.423,,0.053,556.5
+19:55:29,Assault018_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,12.03,361,30.0,4,34.384,,0.022,-526.5
+19:56:00,Arson027_x264.mp4,Arson,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects",Anomaly,True,False,7,89.9,2697,30.0,4,30.831,,0.04,455.2
+19:56:30,Arrest033_x264.mp4,Arrest,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects",Anomaly,True,False,7,258.17,7745,30.0,4,29.363,,0.037,-477.4
+19:57:00,Assault029_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,20.3,609,30.0,4,30.566,,0.041,458.4
+19:57:31,Assault015_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,49.37,1481,30.0,4,30.636,,0.042,-40.3
+19:58:02,Normal_Videos_417_x264.mp4,Normal,SmolVLM2_2.2B_mlx,Normal,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,False,False,26,35.9,1077,30.0,4,30.868,,0.02,84.8
+19:58:33,Assault008_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects
+ABUSE - restraining, domination, intimidation, one person controlling another
+ARREST - police handcuffing or forcibly detaining someone",Anomaly,True,False,24,251.2,7536,30.0,4,30.95,,0.031,0.6
+19:59:04,Assault041_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects",Anomaly,True,False,7,167.43,5023,30.0,4,31.203,,0.045,-587.5
+19:59:36,Arson044_x264.mp4,Arson,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects
+ASSAULT - fighting, hitting, punching, kicking, physical attack
+ABUSE - restraining, domination, intimidation, one person controlling another
+ARREST - police handc",Anomaly,True,False,28,39.87,1196,30.0,4,31.634,,0.033,143.5
+20:00:08,Assault044_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,True,False,26,25.47,764,30.0,4,32.149,,0.045,380.6
+20:00:46,Normal_Videos_885_x264.mp4,Normal,SmolVLM2_2.2B_mlx,Normal,"ARSON - fire, smoke, flames, burning objects",Anomaly,False,False,7,15.8,474,30.0,4,38.051,,0.049,-593.0
+20:01:19,Normal_Videos_150_x264.mp4,Normal,SmolVLM2_2.2B_mlx,Normal,"ARSON - fire, smoke, flames, burning objects.
+ASSAULT - fighting, hitting, punching, kicking, physical attack.
+ABUSE - restraining, domination, intimidation, one person controlling another.
+ARREST -",Anomaly,False,False,26,28.8,864,30.0,4,33.219,,0.073,-24.6
+20:01:51,Assault001_x264.mp4,Assault,SmolVLM2_2.2B_mlx,Anomaly,"ARSON - fire, smoke, flames, burning objects
+ASSAULT - fighting, hitting, punching, kicking, physical attack
+ABUSE - restraining, domination, intimidation, one person controlling another
+ARREST - police handc",Anomaly,True,False,28,82.87,2486,30.0,4,32.185,,0.056,558.4

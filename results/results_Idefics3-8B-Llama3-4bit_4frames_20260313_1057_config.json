@@ -1,0 +1,13 @@
+{
+  "model_tag": "Idefics3-8B-Llama3-4bit",
+  "model_path": "mlx-community/Idefics3-8B-Llama3-4bit",
+  "num_samples": 20,
+  "num_frames": 4,
+  "temperature": 0.0,
+  "max_tokens": 50,
+  "timestamp_start": "2026-03-13T10:57:51.870408",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "python_version": "3.13.3",
+  "cpu_count_logical": 10,
+  "ram_total_gb": 16.0
+}

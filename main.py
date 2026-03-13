@@ -3,20 +3,20 @@ from datetime import datetime
 from tqdm import tqdm
 
 import src.config as config
-from src.config import QWEN_CONFIG, SMOLVLM_CONFIG, IDEFICS_CONFIG, GEMMA4B_CONFIG, GEMMA1B_CONFIG
+from src.config import QWEN_CONFIG, SMOLVLM_CONFIG, IDEFICS_CONFIG, GEMMA4B_CONFIG, GEMMA3N2B_CONFIG
 from src.dataset import get_video_files, extract_frames
 from src.metrics import extract_label, save_experiment_config, calculate_full_metrics
 from models.qwen_model import QwenModel
 from models.smolvlm_model import SmolVLMModel
 from models.idefics_model import IdeficsModel
 from models.gemma4b_model import Gemma4bModel
-from models.gemma1b_model import Gemma1bModel
+from models.gemma3nE2B import Gemma3nE2BModel
 
 _process = psutil.Process(os.getpid())
 
 #==== Model Selection ==========================================================
-ACTIVE_CONFIG = GEMMA1B_CONFIG
-ACTIVE_MODEL  = Gemma1bModel(ACTIVE_CONFIG)
+ACTIVE_CONFIG = GEMMA3N2B_CONFIG
+ACTIVE_MODEL  = Gemma3nE2BModel(ACTIVE_CONFIG)
 #===============================================================================
 
 

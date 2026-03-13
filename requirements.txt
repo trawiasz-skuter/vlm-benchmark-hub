@@ -10,3 +10,4 @@ tqdm
 psutil
 scikit-learn
 accelerate
+matplotlib

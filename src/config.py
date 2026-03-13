@@ -100,12 +100,12 @@ ARREST: Police handcuffing or forcibly detaining someone.
 NORMAL: Peaceful scene, walking, shopping, talking, no violence."""
 )
 
-GEMMA1B_CONFIG = ModelConfig(
-    model_tag   = "gemma-3-1b-it-4bit",
-    model_path  = "mlx-community/gemma-3-1b-it-4bit",
+GEMMA3N2B_CONFIG = ModelConfig(
+    model_tag   = "gemma-3n-E2B-4bit",
+    model_path  = "mlx-community/gemma-3n-E2B-it-4bit",
     temperature = 0.0,
-    max_tokens  = 50,
-    num_frames  = 16,
+    max_tokens  = 30,
+    num_frames  = 4,
     prompt      = """You are a security camera analyst. Study these CCTV frames carefully.
 ARSON: Fire, smoke, flames, burning objects.
 ASSAULT: Fighting, hitting, punching, kicking, physical attack.

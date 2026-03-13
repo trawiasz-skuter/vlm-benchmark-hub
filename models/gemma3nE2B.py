@@ -3,7 +3,7 @@ from mlx_vlm import load, generate
 from contextlib import redirect_stdout
 import io, re
 
-class Gemma1bModel(BaseVLMModel):
+class Gemma3nE2BModel(BaseVLMModel):
 
     def load(self) -> None:
         self.model, self.processor = load(self.cfg.model_path)

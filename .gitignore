@@ -1,0 +1,7 @@
+.venv
+.old_script_backup
+.vscode
+results/*
+pyenv.cfg
+__pycache__/
+.DS_Store

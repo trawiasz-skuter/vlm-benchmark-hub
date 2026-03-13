@@ -1,0 +1,12 @@
+mlx-vlm 
+opencv-python 
+pillow 
+huggingface_hub
+torch 
+torchvision
+transformers
+pathlib
+tqdm
+psutil
+scikit-learn
+accelerate
